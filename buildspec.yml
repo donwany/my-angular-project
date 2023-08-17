@@ -13,6 +13,6 @@ phases:
     commands:
       - ng build --configuration production --aot
 artifacts:
-  base-directory: 'dist/*'
+  base-directory: 'dist/my-angular-project'
   files:
     - '**/*'
